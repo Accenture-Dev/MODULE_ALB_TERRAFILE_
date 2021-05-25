@@ -15,26 +15,26 @@ unhealthy_threshold                = 2
 port                               = 80
 protocol-tg-CloudStartKit          = "HTTP"
 target_type                        = "instance"  
-vpc_id                             = "vpc-0351646fc3e05b6c3"
+vpc_id                             = "vpc-0807031a2149999ea"
 
 #aws_lb_target_group_attachment1
 
-instance1_id                       = "i-07bcf26efcddb6b2c"
+instance1_id                       = "i-0f36953401abcdc94"
 port-alb-target-group-attachment1  = 80
-instance2_id                       = "i-0ce88729fa3ffa781"
+instance2_id                       = "i-010b825aa0508c27a"
 port-alb-target-group-attachment2  = 80
-instance3_id                       = "i-0b4d08102282f85cd"
+instance3_id                       = "i-0b034f29b3d25af7a"
 port-alb-target-group-attachment3  = 80
-instance4_id                       = "i-0335c3d33614ea156"
+instance4_id                       = "i-0fafe0f5cfeb13830"
 port-alb-target-group-attachment4  = 80
 
 #aws_lb
 
 name-alb-CloudStartKit             = "alb-CloudStartKit"
 internal                           = false
-security_groups                    = "sg-05af715c6f857d468"
-subnet1                           = "subnet-0299697f36211c2c8"
-subnet2                           = "subnet-099d5b7ea68374991"
+security_groups                    = "sg-0355db4a84bf000f4"
+subnet1                           = "subnet-05ef9eaeabf2a9e91"
+subnet2                           = "subnet-0b7a26e010189d050"
 ip_address_type                    = "ipv4"
 load_balancer_type                 = "application"
 
